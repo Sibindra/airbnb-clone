@@ -5,12 +5,14 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 
 import "./styles/index.css"
+import CardSection from "./components/Cardsection";
 
 function Index(){
     return(
         <>
         <Navbar/>
         <Hero/>
+        <CardSection/>
         </>
     )
 };

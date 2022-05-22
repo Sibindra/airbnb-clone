@@ -1,0 +1,18 @@
+#Cardsection {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-y: hidden;
+}
+
+#card {
+    padding: 10px;
+    object-fit: contain;
+}
+
+#card-image {
+    width: 264px;
+    height: 353px;
+    border-radius: 10px;
+}

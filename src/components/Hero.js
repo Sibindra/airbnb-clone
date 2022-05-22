@@ -16,7 +16,8 @@ export default function Hero() {
                 <h2>Online Experiences</h2>
                 <p id="textp">
                     Join unique interactive activities led by one-of-a-kind
-                    hosts—all without leaving home.
+                    hosts—all without leaving home.We provide with all kinds of skills at suitable prices as below.
+                    So feel free to explore your recommended plans
                 </p>
             </div>
         </div>
