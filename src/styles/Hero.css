@@ -1,0 +1,16 @@
+#image-container{
+    display: grid;
+    justify-content: center;
+}
+
+#image{
+    max-width: 100%;
+}
+
+#text{
+    padding: 20px;
+}
+
+#textp{
+    padding-top: 3px;
+}
