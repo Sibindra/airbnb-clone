@@ -3,15 +3,17 @@ import ReactDOM from "react-dom";
 
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-
-import "./styles/index.css"
 import CardSection from "./components/Cardsection";
+
+// css import
+import "./styles/index.css"
 
 function Index(){
     return(
         <>
         <Navbar/>
         <Hero/>
+        {/* the cards are added on Cardsection through Card method */}
         <CardSection/>
         </>
     )

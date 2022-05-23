@@ -1,23 +1,8 @@
 import React from "react";
+import Card from "./Card";
+
 import "../styles/Cardsection.css";
 
-function Card(prop) {
-    return (
-        <div id="card">
-            <div id="card-image-container">
-                <img src={prop.img} alt="img not found" id="card-image" />
-            </div>
-
-            <div id="card-info-container">
-                <p id="rating">⭐{prop.rating}</p>
-
-                <h3 id="name">{prop.name}</h3>
-
-                <p id="rate">From {prop.rate}/ person</p>
-            </div>
-        </div>
-    );
-}
 export default function CardSection() {
     return (
         <div id="Cardsection">
@@ -52,8 +37,22 @@ export default function CardSection() {
             <Card
                 img={require("../images/cooking.jpg")}
                 rating="Cooking Skill Development"
-                name="4,0 (4) Italy"
+                name="4.0 (4) Italy"
                 rate="$50"
+            />
+
+            <Card
+                img={require("../images/piano.jpg")}
+                rating="Piano Lessions"
+                name="1.2 (1) France"
+                rate="$120"
+            />
+
+            <Card
+                img={require("../images/coding.jpg")}
+                rating="Beginners Coding Skills"
+                name="2.5 (3) Nepal"
+                rate="$10"
             />
         </div>
     );

@@ -3,6 +3,7 @@ import "../styles/Hero.css";
 
 export default function Hero() {
     return (
+        // hero section image
         <div id="Hero">
             <div id="image-container">
                 <img
@@ -12,6 +13,7 @@ export default function Hero() {
                 />
             </div>
 
+            {/* text section on hero  */}
             <div id="text">
                 <h2>Online Experiences</h2>
                 <p id="textp">
